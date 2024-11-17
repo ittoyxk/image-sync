@@ -31,9 +31,6 @@ jobs:
         run:
           |
           docker version
-          docker pull  ghcr.io/blakeblackshear/frigate:stable
-          docker tag  ghcr.io/blakeblackshear/frigate:stable registry.cn-beijing.aliyuncs.com/ittoyxk/frigate:stable
-          docker push registry.cn-beijing.aliyuncs.com/ittoyxk/frigate:stable
-          docker pull alexxit/go2rtc:1.9.6
-          docker tag alexxit/go2rtc:1.9.6 registry.cn-beijing.aliyuncs.com/ittoyxk/go2rtc:1.9.6
-          docker push registry.cn-beijing.aliyuncs.com/ittoyxk/go2rtc:1.9.6
+          docker pull superng6/qbittorrent:5.0.1_v2.0.10
+          docker tag superng6/qbittorrent:5.0.1_v2.0.10 registry.cn-beijing.aliyuncs.com/ittoyxk/qbittorrent:5.0.1_v2.0.10
+          docker push registry.cn-beijing.aliyuncs.com/ittoyxk/qbittorrent:5.0.1_v2.0.10
