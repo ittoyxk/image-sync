@@ -33,4 +33,4 @@ jobs:
           docker version
           docker pull registry.gitlab.com/shinobi-systems/shinobi:dev
           docker tag registry.gitlab.com/shinobi-systems/shinobi:dev registry.cn-beijing.aliyuncs.com/ittoyxk/shinobi:dev
-          
+          docker push registry.cn-beijing.aliyuncs.com/ittoyxk/shinobi:dev
